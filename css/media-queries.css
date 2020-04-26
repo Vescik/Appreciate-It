@@ -18,6 +18,10 @@
     .header-heading-secondary{
         font-size: 3rem;
     }
+    .description-card_text {
+        padding: 20px 50px 60px 50px;
+        font-size: 45px;
+    }
 }
 
 
@@ -33,7 +37,7 @@
         line-height: 4.5rem;
     }
     .header-btn{
-        padding: 7px 18px;
+        padding: 7px 28px;
         font-size: 1.2rem;
     }
     .header-heading-main{
@@ -41,6 +45,16 @@
     }
     .header-heading-secondary{
         font-size: 1.5rem;
+    }
+    .description-card {
+        max-width: 300px;
+
+    }
+    .description-card_text {
+       font-size: 1.2rem;
+        line-height: 1.7rem;
+        padding: 10px 20px 40px 20px;
+
     }
 
 }

@@ -64,9 +64,7 @@ li {
 
 }
 
-li:hover {
-    background: #76CFE0;
-}
+
 
 li > button {
     font-weight: normal;
@@ -82,6 +80,9 @@ li > button {
     max-width: 500px;
     text-align: center;
 
+}
+.bag:hover{
+    background-color: blue;
 }
 input {
     border-radius: 5px;

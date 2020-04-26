@@ -22,13 +22,13 @@ body {
   line-height: 62px; }
 
 .header-heading-secondary {
-  color: yellow;
+  color: #2575FC;
   font-size: 1.8rem; }
 
 .mark-color {
   color: #1F28CF; }
 
-.about-us-heading {
+.middle-heading {
   text-align: center;
   padding: 20px;
   font-size: 6rem; }
@@ -50,23 +50,45 @@ body {
     height: 500px; }
 
 .header-btn {
+  font-weight: 500;
   margin-top: 15px;
   padding: 7px 30px;
   border-radius: 50px;
   background: linear-gradient(90deg, #6A11CB 0%, #2575FC 100%);
-  font-weight: 700;
   font-size: 12px;
   line-height: 14px;
   color: #fff;
   border: none;
-  transition: transform .2s, box-shadow .2s;
+  transition: transform .5s, box-shadow .2s;
   animation-name: example;
   animation-duration: 2s; }
   .header-btn:hover {
     background: linear-gradient(90deg, #480bcb 0%, #0c64fc 100%);
     -webkit-box-shadow: 10px 10px 22px -13px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 10px 10px 22px -13px rgba(0, 0, 0, 0.75);
-    box-shadow: 10px 10px 22px -13px rgba(0, 0, 0, 0.75); }
+    box-shadow: 10px 10px 22px -13px rgba(0, 0, 0, 0.75);
+    transform: translateY(-5px); }
+
+.description-container {
+  display: flex;
+  justify-content: space-around; }
+
+.description-card {
+  position: relative;
+  border-radius: 25px;
+  background-color: #ffffff;
+  margin: 20px;
+  text-align: center;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); }
+  .description-card_title {
+    font-size: 2rem;
+    padding: 10px; }
+  .description-card_text {
+    padding: 10px 20px 40px 20px;
+    font-size: 20px; }
+
+.description-icon {
+  height: 55px; }
 
 @keyframes move {
   from {
