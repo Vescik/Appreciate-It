@@ -44,7 +44,7 @@ body {
   .header-container {
     display: flex;
     flex-direction: row;
-    justify-content: space-around; }
+    justify-content: space-between; }
   .header-img {
     margin-top: -90px;
     height: 500px; }

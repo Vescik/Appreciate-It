@@ -22,7 +22,7 @@
 
 
 /* Small tablet to big tablet: from 768px to 1023px */
-@media only screen and (max-width: 1300px) {
+@media only screen and (max-width: 1400px) {
     .header-img{
         height: 550px;
         font-size: 3rem;
