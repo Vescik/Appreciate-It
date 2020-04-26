@@ -81,7 +81,7 @@ body {
   transition: transform .4s;
   cursor: pointer; }
   .description-card:hover {
-    transform: translateY(-10px); }
+    transform: translateY(-20px); }
   .description-card_title {
     font-size: 2rem;
     padding: 10px; }
