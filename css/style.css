@@ -49,6 +49,24 @@ body {
     margin-top: -90px;
     height: 500px; }
 
+.patch-list-item {
+  color: #000000;
+  display: inline-block !important; }
+
+.close {
+  float: right;
+  margin: 20px 40px 0 0;
+  border: none;
+  font-weight: 900;
+  font-size: 40px;
+  background-color: #ffffff;
+  transition: font-size .4s; }
+  .close:hover {
+    font-size: 60px; }
+
+.active {
+  display: none; }
+
 .header-btn {
   font-weight: 500;
   margin-top: 20px;
@@ -91,6 +109,16 @@ body {
 
 .description-icon {
   height: 55px; }
+
+.alert {
+  position: absolute;
+  height: 500px;
+  width: 800px;
+  border-radius: 50px;
+  background-color: white;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
 
 @keyframes move {
   from {
