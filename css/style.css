@@ -8,19 +8,26 @@
   height: 100vh;
   background: linear-gradient(90deg, #E9DEFA 0%, #FBFCDB 100%); }
 
-.header {
+body {
   font-family: 'Roboto', sans-serif !important;
   font-weight: 900 !important; }
-  .header-heading-main {
-    font-size: 60px; }
-  .header-quote {
-    margin-top: 50px;
-    font-weight: 900;
-    font-size: 4rem;
-    line-height: 62px; }
+
+.header-heading-main {
+  font-size: 60px; }
+
+.header-quote {
+  margin-top: 50px;
+  font-weight: 900;
+  font-size: 4rem;
+  line-height: 62px; }
 
 .mark-color {
   color: #1F28CF; }
+
+.about-us-heading {
+  text-align: center;
+  padding: 20px;
+  font-size: 6rem; }
 
 .header {
   padding: 40px 0 10px 40px; }
@@ -40,3 +47,27 @@
     margin-top: -90px;
     margin-right: 150px;
     height: 500px; }
+
+.header-btn {
+  margin-top: 15px;
+  padding: 7px 30px;
+  border-radius: 25px;
+  background: linear-gradient(90deg, #6A11CB 0%, #2575FC 100%);
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+  color: #fff;
+  border: none;
+  transition: transform .2s, box-shadow .2s;
+  animation-name: example;
+  animation-duration: 2s; }
+  .header-btn:hover {
+    -webkit-box-shadow: 10px 10px 22px -13px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 22px -13px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 10px 22px -13px rgba(0, 0, 0, 0.75); }
+
+@keyframes move {
+  from {
+    background-color: red; }
+  to {
+    background-color: yellow; } }
