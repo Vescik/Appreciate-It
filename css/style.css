@@ -21,6 +21,10 @@ body {
   font-size: 4rem;
   line-height: 62px; }
 
+.header-heading-secondary {
+  color: red;
+  font-size: 1.8rem; }
+
 .mark-color {
   color: #1F28CF; }
 
@@ -35,10 +39,8 @@ body {
     display: inline-block;
     font-size: 6.4rem; }
   .header-heading-secondary {
-    color: #2575FC;
     display: block;
-    margin-bottom: 20px;
-    font-size: 1.8rem; }
+    margin-bottom: 20px; }
   .header-container {
     display: flex;
     flex-direction: row;
