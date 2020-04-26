@@ -51,7 +51,7 @@ body {
 
 .header-btn {
   font-weight: 500;
-  margin-top: 15px;
+  margin-top: 20px;
   padding: 7px 30px;
   border-radius: 50px;
   background: linear-gradient(90deg, #6A11CB 0%, #2575FC 100%);
@@ -59,9 +59,7 @@ body {
   line-height: 14px;
   color: #fff;
   border: none;
-  transition: transform .5s, box-shadow .2s;
-  animation-name: example;
-  animation-duration: 2s; }
+  transition: transform .5s, box-shadow .2s; }
   .header-btn:hover {
     background: linear-gradient(90deg, #480bcb 0%, #0c64fc 100%);
     -webkit-box-shadow: 10px 10px 22px -13px rgba(0, 0, 0, 0.75);
@@ -79,7 +77,11 @@ body {
   background-color: #ffffff;
   margin: 20px;
   text-align: center;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); }
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  transition: transform .4s;
+  cursor: pointer; }
+  .description-card:hover {
+    transform: translateY(-10px); }
   .description-card_title {
     font-size: 2rem;
     padding: 10px; }

@@ -9,7 +9,8 @@
         line-height: 6.5rem;
     }
     .header-btn{
-        padding: 25px 70px;
+        margin-top: 40px;
+        padding: 20px 60px;
         font-size: 2.2rem;
     }
 .header-heading-main{
@@ -18,9 +19,15 @@
     .header-heading-secondary{
         font-size: 3rem;
     }
+    .description-card{
+        margin: 90px;
+    }
     .description-card_text {
         padding: 20px 50px 60px 50px;
-        font-size: 45px;
+        font-size: 1.8rem;
+    }
+    .description-icon{
+        height: 90px;
     }
 }
 
@@ -39,6 +46,7 @@
     .header-btn{
         padding: 7px 28px;
         font-size: 1.2rem;
+        margin-top: 10px;
     }
     .header-heading-main{
         font-size: 5rem;
@@ -47,15 +55,17 @@
         font-size: 1.5rem;
     }
     .description-card {
-        max-width: 300px;
-
-    }
+        margin: 70px;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); }
+    .description-card_title {
+        font-size: 2rem;
+        padding: 10px; }
     .description-card_text {
-       font-size: 1.2rem;
-        line-height: 1.7rem;
-        padding: 10px 20px 40px 20px;
+        padding: 20px 25px 40px 25px;
+        font-size: 20px; }
 
-    }
+    .description-icon {
+        height: 55px; }
 
 }
 

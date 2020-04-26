@@ -1,2 +1,2 @@
-// alert('Pamiętaj, że to tylko wersja testowa i wygląd a tymbardziej funkcjonalność może się znacząco różnić w efekcie końcowym');
+// alert('Pamiętaj, że to tylko wersja testowa, wygląd a tymbardziej funkcjonalność może się znacząco różnić w efekcie końcowym');
 // alert('Jeśli strona nie wyświetla się poprawnie na twoim komputerze be patient work in progress');
