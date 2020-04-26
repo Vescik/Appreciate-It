@@ -74,7 +74,7 @@ li > button {
     border: none;
     float: right;
     color: #025f70;
-    
+
 }
 .bag{
     background-color: red;
@@ -103,4 +103,5 @@ input {
 }
 #userInput{
     height: 300px;
+    border-radius: 25px;
 }

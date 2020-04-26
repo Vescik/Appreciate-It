@@ -62,6 +62,7 @@ body {
   animation-name: example;
   animation-duration: 2s; }
   .header-btn:hover {
+    background: linear-gradient(90deg, #480bcb 0%, #0c64fc 100%);
     -webkit-box-shadow: 10px 10px 22px -13px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 10px 10px 22px -13px rgba(0, 0, 0, 0.75);
     box-shadow: 10px 10px 22px -13px rgba(0, 0, 0, 0.75); }
