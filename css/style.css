@@ -22,7 +22,7 @@ body {
   line-height: 62px; }
 
 .header-heading-secondary {
-  color: red;
+  color: yellow;
   font-size: 1.8rem; }
 
 .mark-color {
@@ -44,16 +44,15 @@ body {
   .header-container {
     display: flex;
     flex-direction: row;
-    justify-content: space-between; }
+    justify-content: space-around; }
   .header-img {
     margin-top: -90px;
-    margin-right: 150px;
     height: 500px; }
 
 .header-btn {
   margin-top: 15px;
   padding: 7px 30px;
-  border-radius: 25px;
+  border-radius: 50px;
   background: linear-gradient(90deg, #6A11CB 0%, #2575FC 100%);
   font-weight: 700;
   font-size: 12px;

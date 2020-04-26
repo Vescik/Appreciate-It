@@ -1,26 +1,30 @@
 /* Big tablet to 1200px (widths smaller taht the 1140px row) */
-@media only screen and (max-width: 1600px) {
+@media only screen and (max-width: 1920px) {
 .header-img{
-height: 700px;
-    font-size: 8rem;
+    height: 900px;
     line-height: 6.5rem;
     }
     .header-quote {
-        font-size: 6rem;
+        font-size: 8rem;
         line-height: 6.5rem;
     }
     .header-btn{
-        padding: 17px 35px;
-        font-size: 1.9rem;
+        padding: 25px 70px;
+        font-size: 2.2rem;
     }
-
+.header-heading-main{
+    font-size: 10rem;
+}
+    .header-heading-secondary{
+        font-size: 3rem;
+    }
 }
 
 
 /* Small tablet to big tablet: from 768px to 1023px */
-@media only screen and (max-width: 1423px) {
+@media only screen and (max-width: 1300px) {
     .header-img{
-        height: 500px;
+        height: 550px;
         font-size: 3rem;
         line-height: 3.5rem;
     }
@@ -31,6 +35,12 @@ height: 700px;
     .header-btn{
         padding: 7px 18px;
         font-size: 1.2rem;
+    }
+    .header-heading-main{
+        font-size: 5rem;
+    }
+    .header-heading-secondary{
+        font-size: 1.5rem;
     }
 
 }
