@@ -3,19 +3,40 @@
 // alert('Sekcja z dodawaniem postów jest dopiero zaczęta i nie działa dobrze, jeśli w ogóle');
 let close  = document.querySelector('.alert');
 let textArea = document.querySelector('.addPost-input');
+
 const postHolder = [];
 function closeWindow() {
-    close.classList.add('active')
+    close.classList.add('hide')
 }
 
 function addPostToArray() {
-    if(textArea.value.length >= 9){
+    if(textArea.value.length >= 13){
         postHolder.push(textArea.value);
         console.log(postHolder);
         document.querySelector('.addPost-input').value = "";
     }else{
         document.querySelector('.addPost-input').value = "";
-        console.log('else')
+        alert('Minimalna ilość znaków wynosi 13');
     }
 }
 
+function createPost() {
+   let  newDiv = document.createElement("div");
+    newDiv.innerHTML = "<h1>Hi there and greetings!</h1>";
+
+  let  my_div = document.querySelector(".div-creator");
+    document.body.insertBefore(newDiv, my_div);
+}
+
+
+
+
+window.onload=function()  //executes when the page finishes loading
+{
+    setTimeout(func1, 3500);  //sets a timer which calls function func1 after 2,000 milliseconds = 2 secs.
+
+};
+function func1()
+{
+    document.querySelector(".alert").className="show alert";
+}
