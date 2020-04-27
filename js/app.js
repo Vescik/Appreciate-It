@@ -9,6 +9,13 @@ function closeWindow() {
 }
 
 function addPostToArray() {
-    postHolder.push(textArea.value);
-    console.log(postHolder)
+    if(textArea.value.length >= 9){
+        postHolder.push(textArea.value);
+        console.log(postHolder);
+        document.querySelector('.addPost-input').value = "";
+    }else{
+        document.querySelector('.addPost-input').value = "";
+        console.log('else')
+    }
 }
+
