@@ -29,6 +29,15 @@
     .description-icon{
         height: 90px;
     }
+    .alert{
+        position: absolute;
+        height: 800px;
+        width: 1500px;
+        font-size: 3rem;
+    }
+    .patch-list-item{
+        margin: 0 20px 20px 20px;
+    }
 }
 
 
@@ -56,16 +65,25 @@
     }
     .description-card {
         margin: 70px;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); }
+        box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25); }
     .description-card_title {
         font-size: 2rem;
         padding: 10px; }
     .description-card_text {
-        padding: 20px 25px 40px 25px;
+        padding: 0 25px 40px 25px;
         font-size: 20px; }
 
     .description-icon {
         height: 55px; }
+    .alert{
+        position: absolute;
+        height: 500px;
+        width: 800px;
+        font-size: 1.2rem;
+    }
+    .patch-list-item{
+        margin: 0 20px 20px 20px;
+    }
 
 }
 

@@ -8,7 +8,6 @@
 
     <link rel="stylesheet" href="css/fullpage.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/to-do.css">
     <link rel="stylesheet" href="css/media-queries.css">
 
 
@@ -44,21 +43,21 @@
         </header>
     </div>
     <div class="section"> <div class="description bg-gradient">
-        <h2 class="middle-heading">About Us</h2>
+        <h2 class="middle-heading">nw co tu napisać jeszcze</h2>
         <div class="description-container">
 
             <div class="description-card">
-                <h3 class="description-card_title">Title</h3>
+               <!-- <h3 class="description-card_title">Title</h3>-->
                 <img src="img/mdi_favorite.svg" alt="icon" class="description-icon">
                 <p class="description-card_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
             </div>
             <div class="description-card">
-                <h3 class="description-card_title">Title</h3>
+               <!-- <h3 class="description-card_title">Kim jesteśmy ?</h3>-->
                 <img src="img/mdi_local_florist.svg" alt="icon" class="description-icon">
-                <p class="description-card_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+                <p class="description-card_text">Jesteśmy grupą studentek psychologii, które stworzyły tę stronę na potrzebę projektu zaliczeniowego na studia. Mając na uwadze wsparcie psychiczne, proponujemy państwu stronę angażującą do codziennych przemyśleń i docenienia najdrobniejszych sytuacji w państwa życiu.</p>
             </div>
             <div class="description-card">
-                <h3 class="description-card_title">Title</h3>
+                <!--<h3 class="description-card_title">Title</h3>-->
                 <img src="img/mdi_person.svg" alt="icon" class="description-icon">
                 <p class="description-card_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
             </div>
@@ -67,42 +66,19 @@
 
 
     </div>
-    <div class="section"><div class="about-us bg-gradient">
-        <h2 class="about-us-heading middle-heading">Add Post Beta</h2>
-        <div class="container">
-            <div class="row">
-                <div class="intro col-12">
+    <div class="section">
+        <div class="addPost bg-gradient">
+        <h2 class="addPost-heading middle-heading">Dodaj se posta Byq</h2>
+        <form action="" class="addPost-form">
 
-                    <div>
-                        <div class="border1"></div>
-                        <div></div>
-                    </div>
-                </div>
-            </div>
+            <textarea class="addPost-input" name="Text1" cols="40" rows="5"></textarea>
 
-            <div class="row">
-                <div class="helpText col-12">
-                    <p id="first">Enter text into the input field to add post.</p>
-                    <p id="third">Click the "X" to delete post</p>
-                </div>
-            </div>
+        </form>
+            <button  onclick="addPostToArray()" class="header-btn">Dodaj post</button>
 
-            <div class="row">
-                <div class="col-12">
-                    <input id="userInput" type="text" placeholder="New item..." >
-                    <button id="enter"><i class="fas fa-pencil-alt"></i>Add</button>
-                </div>
-            </div>
 
-            <!-- Empty List -->
-            <div class="row">
-                <div class="listItems col-12">
-                    <ul class="col-12 offset-0 col-sm-8 offset-sm-2">
-                    </ul>
-                </div>
-            </div>
 
-        </div>
+
 
     </div>
     </div>
@@ -113,6 +89,5 @@
 <script  src="js/app.js"></script>
 <script src="js/fullpage.js"></script>
 <script src="js/script.js"></script>
-<script src="js/to-do.js"></script>
 </body>
 </html>
