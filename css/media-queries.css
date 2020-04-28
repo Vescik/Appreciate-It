@@ -1,11 +1,11 @@
 /* Big desktop to 1400px (widths smaller taht the 1140px row) */
-@media only screen and (max-width: 1400px) {
+@media only screen and (max-width: 1440px) {
 .header-heading-main{
-    font-size: 5.4rem;}
+    font-size: 7.4rem;}
  .header-heading-secondary{font-size: 1.8rem}
  .header-quote{
-     font-size: 4rem;
-     line-height: 62px;
+     font-size: 5rem;
+     line-height: 82px;
  }
  .header-img{height:550px;
  width: auto}
@@ -36,14 +36,35 @@
  }
  .patch-list-item{font-size: 1.5rem}
 }
+@media screen and (max-height: 700px) {
+    .header-heading-main{
+        font-size: 5.4rem;}
+    .header-heading-secondary{font-size: 1.8rem}
+    .header-quote{
+        font-size: 5rem;
+        line-height: 82px;
+    }
+    .header-img{height:500px;
+        width: auto}
+}
 
 
 /* Small tablet to big tablet: from 768px to 1023px */
-@media only screen and (max-width: 1023px) {
+@media only screen and (max-width: 1025px) {
 
-
+    .header-heading-main{
+        font-size: 6.4rem;}
+    .header-heading-secondary{font-size: 1.8rem}
+    .header-container{
+    }
+    .header-quote{
+        font-size: 4rem;
+        line-height: 60px;
+    }
+    .header-img{height:500px;
+        width: auto}
 }
-
+/* lAPTOP with HighDPI screen */
 
 
 
