@@ -51,7 +51,6 @@
 
 /* Small tablet to big tablet: from 768px to 1023px */
 @media only screen and (max-width: 1025px) {
-
     .header-heading-main{
         font-size: 6.4rem;}
     .header-heading-secondary{font-size: 1.8rem}
@@ -63,6 +62,17 @@
     }
     .header-img{height:500px;
         width: auto}
+    .description-card{
+        margin: 30px;
+    }
+    .description-card_text{
+        padding: 5px 20px 30px 20px;
+        font-size: 20px;
+    }
+    .description-icon{
+        margin: 20px;
+        height: 55px;
+    }
 }
 /* lAPTOP with HighDPI screen */
 
