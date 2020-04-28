@@ -2659,6 +2659,9 @@ body {
 .show {
   display: block; }
 
+.mobile {
+  display: none; }
+
 .header-btn {
   font-weight: 500;
   margin-top: 20px;
