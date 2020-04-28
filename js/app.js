@@ -40,3 +40,14 @@ function func1()
 {
     document.querySelector(".alert").className="show alert";
 }
+
+
+function test() {
+
+    let element = document.createElement("div");
+    element.classList.add('post-test');
+    document.getElementById('lc').appendChild(element);
+    let postTest = document.querySelector('.post-test')
+    postTest.innerHTML= postHolder[0];
+
+}
