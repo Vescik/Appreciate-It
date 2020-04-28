@@ -2639,7 +2639,9 @@ body {
   .header-img {
     margin-top: -90px;
     height: 800px;
-    width: auto; }
+    width: auto;
+    -webkit-filter: drop-shadow(1px 1px 1px #222);
+    filter: drop-shadow(2px 2px 2px #222); }
 
 .patch-list-item {
   color: #000000;
@@ -2718,10 +2720,11 @@ body {
       outline: none; }
 
 .post-test {
+  font-size: 3rem;
   text-align: center;
   display: block;
-  width: 400px;
-  height: 200px;
+  width: 80%;
+  height: 60%;
   background-color: #ffffff;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 14px;

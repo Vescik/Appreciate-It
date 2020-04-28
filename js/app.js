@@ -42,12 +42,24 @@ function func1()
 }
 
 
+let divCreator  = document.querySelector('.div-creator');
+
 function test() {
 
-    let element = document.createElement("div");
-    element.classList.add('post-test');
-    document.getElementById('lc').appendChild(element);
-    let postTest = document.querySelector('.post-test')
-    postTest.innerHTML= postHolder[0];
+    if(postHolder[0]){
+        let element = document.createElement("div");
+        element.classList.add('post-test');
+        document.getElementById('lc').appendChild(element);
+        let postTest = document.querySelector('.post-test');
+        postTest.innerHTML= postHolder[0];
+    }else{
+        alert('Nie napisałeś żadnej historii :C')
+    }
+}
+function remove() {
+    let postTest = document.querySelector('.post-test');
+    postTest.remove()
 
 }
+
+
