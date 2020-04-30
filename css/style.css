@@ -2718,15 +2718,16 @@ body {
       outline: none; }
 
 .post-test {
-  width: 40%;
   height: auto;
   list-style: none;
-  font-size: 1.2rem;
-  padding: 10px 20px;
+  font-size: 14px;
   background-color: #ffffff;
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 14px;
-  margin-bottom: 1%; }
+  padding: 15px;
+  display: block;
+  max-width: 20%;
+  margin: 10px; }
   .post-test ul {
     margin-top: 20px; }
 
@@ -2737,9 +2738,9 @@ body {
 
 .center {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
-  justify-content: center;
-  flex-direction: column; }
+  justify-content: center; }
 
 .alert {
   display: none;
