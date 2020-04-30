@@ -1,6 +1,9 @@
 // alert('Pamiętaj, że to tylko wersja testowa, wygląd a tymbardziej funkcjonalność może się znacząco różnić w efekcie końcowym');
 // alert('Strona może się źle wyświetlać na dużych ekranach, a na mobile nie jest jeszcze zrobiona i będzie dopiero na koniec');
 // alert('Sekcja z dodawaniem postów jest dopiero zaczęta i nie działa dobrze, jeśli w ogóle');
+
+
+
 let close  = document.querySelector('.alert');
 let textArea = document.querySelector('.addPost-input');
 
@@ -116,6 +119,18 @@ function remove() {
         } else
             console.log(local);
     }
+
+
+    function fetchUrl(){
+        let displayResult = document.getElementById('fetch-storage');
+
+        let localDb = localStorage.getItem('html');
+        document.getElementById("fetch-storage").innerHTML = localStorage.getItem("html");
+
+    }
+    window.onload = function(){
+        fetchUrl()
+    };
 
     function addItemToArray(itemId, toDoItem) {
         // add item to array as an object with an ID so we can find and delete it later
