@@ -71,11 +71,11 @@
         width: 800px;
         height: 500px;
     }
-      }
+
 
     .patch-list-item{font-size: 1.5rem}
 }
-@media screen and (max-height: 700px) {
+@media only screen and (max-height: 700px) {
     .header-heading-main{
         font-size: 5.4rem;}
     .header-heading-secondary{font-size: 1.8rem}

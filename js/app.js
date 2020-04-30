@@ -108,12 +108,19 @@ function remove() {
         li.innerText = toDoItem;
         // add li to the DOM
         ul.appendChild(li);
+
+        let local = localStorage.getItem("html");
+        if (local == null){
+            localStorage.setItem("html", li.outerHTML);
+            console.log('HTML setted in localStorage');
+        } else
+            console.log(local);
     }
 
     function addItemToArray(itemId, toDoItem) {
         // add item to array as an object with an ID so we can find and delete it later
         toDoListArray.push({ itemId, toDoItem});
-        console.log(toDoListArray)
+        console.log(toDoListArray);
     }
 
     function removeItemFromDOM(id) {
@@ -130,5 +137,8 @@ function remove() {
     }
 
 })();
+let cookie = document.querySelector('.post-test');
 
-
+function store() {
+    window.localStorage.myitems = cookie.innerHTML;
+}
