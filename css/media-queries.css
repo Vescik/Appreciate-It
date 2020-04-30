@@ -34,6 +34,8 @@
         width: 800px;
         height: 500px;
     }
+    .post-test{font-size: 2.2rem;
+    width: 80%}
     .patch-list-item{font-size: 1.5rem}
 }
 @media only screen and (max-width: 1800px) {
@@ -70,6 +72,13 @@
     .alert{
         width: 800px;
         height: 500px;
+    }
+    .post-test{font-size: 1.3rem;
+        margin-top: 30px;
+        width: 80%}
+    .post-test:first-child{
+        margin-top: 50px;
+    }
     }
     .patch-list-item{font-size: 1.5rem}
 }

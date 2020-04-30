@@ -2702,39 +2702,44 @@ body {
   flex-direction: column;
   align-items: center; }
   .addPost-form {
-    width: 100%;
-    height: 70%;
     padding: 0 20%;
     margin-bottom: -120px; }
   .addPost-input {
     padding: 15px;
     font-size: 2.3rem;
-    width: 100%;
-    height: 80%;
+    width: 160%;
+    height: 300px;
     border: none;
     border-radius: 14px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
     resize: none; }
     .addPost-input:focus {
       border: none;
       outline: none; }
 
 .post-test {
-  font-size: 3rem;
-  text-align: center;
-  display: block;
-  width: 80%;
-  height: 60%;
+  width: 40%;
+  height: auto;
+  list-style: none;
+  font-size: 1.2rem;
+  padding: 10px 20px;
   background-color: #ffffff;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 14px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%); }
+  margin-bottom: 1%; }
+  .post-test ul {
+    margin-top: 20px; }
 
-.div-creator {
-  text-align: ce; }
+.form__label {
+  font-size: 2rem;
+  text-align: center;
+  margin: 10px; }
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column; }
 
 .alert {
   display: none;

@@ -68,18 +68,23 @@
     <div class="section">
         <div class="addPost bg-gradient">
         <h2 class="addPost-heading middle-heading">Dodaj se posta Byq</h2>
-        <form action="" class="addPost-form">
-
-            <textarea placeholder="Wpisz swoją historię" class="addPost-input" name="Text1" cols="40" rows="5"></textarea>
-
-        </form>
-            <button  onclick="addPostToArray()" class="header-btn">Dodaj post</button>
+            <form class="form">
+                <div class="addPost">
+                    <label class="form__label" for="todo">Co cię dzisiaj uszczęśliwiło</label>
+                    <textarea placeholder="Wpisz swoją historie" class="form__input addPost-input"
+                           id="todo"
+                           name="to-do"
+                           required></textarea>
+                    <button class="button header-btn">Submit</button>
+                </div>
+            </form>
         </div>
     </div>
     <div class="section mySection">
         <div class="bg-gradient div-creator" id="lc">
-            <button onclick="test();" class="header-btn">Aktualizuj Liste</button>
-            <button onclick="remove();" class="header-btn">Usuń post</button>
+                <ul class="toDoList center">
+                </ul>
+        </div>
         </div>
     </div>
 </div>
