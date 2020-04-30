@@ -34,15 +34,7 @@ function createPost() {
 
 
 
-window.onload=function()  //executes when the page finishes loading
-{
-    setTimeout(func1, 3500);  //sets a timer which calls function func1 after 2,000 milliseconds = 2 secs.
 
-};
-function func1()
-{
-    document.querySelector(".alert").className="show alert";
-}
 
 
 let divCreator  = document.querySelector('.div-creator');
@@ -130,7 +122,13 @@ function remove() {
     }
     window.onload = function(){
         fetchUrl()
+        setTimeout(func1, 3500);  //sets a timer which calls function func1 after 2,000 milliseconds = 3.5 secs.
     };
+  
+    function func1()
+    {
+        document.querySelector(".alert").className="show alert";
+    }
 
     function addItemToArray(itemId, toDoItem) {
         // add item to array as an object with an ID so we can find and delete it later
