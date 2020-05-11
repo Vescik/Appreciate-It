@@ -2800,7 +2800,8 @@ body {
 
 .form__label {
   font-size: 2rem;
-  text-align: center; }
+  text-align: center;
+  margin-bottom: 10px; }
 
 .center {
   display: flex;

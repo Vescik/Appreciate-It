@@ -14,7 +14,7 @@
         padding: 7px 30px;
     }
     .description-card{
-        margin: 70px;
+        margin:  0 70px 70px 70px;
         min-width: 300px;
     }
     .description-card_text{
@@ -53,7 +53,7 @@
     }
     .description-card{
     min-width: 400px;
-        margin: 50px;
+        margin: 0 50px 50px 50px;
     }
     .description-card_text{
         padding: 5px 20px 30px 20px;
