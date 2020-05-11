@@ -32,12 +32,13 @@
         <header class="header bg-gradient">
 
             <h1 class="header-heading-main">Appreciate It</h1>
-            <h2 class="header-heading-secondary">What’s good happen to you today?</h2>
+            <h2 class="header-heading-secondary">Co się dzisiaj u ciebie wydarzyło ?</h2>
             <div class="header-container">
-                <div class="header-left"><p class="header-quote">SHARE WITH US <br>
-                    YOUR <span class="mark-color">POSITIVE</span>
-                    <br> EXPERIENCE</p>
-                    <button class="header-btn">Learn More </button></div>
+                <div class="header-left"><p class="header-quote">Podziel się z nami <br>
+                    swoimi <span class="mark-color">pozytywnymi</span>
+                    <br> doświadczeniami</p>
+<!--                    <button class="header-btn">Dowiedz się więcej! </button>-->
+                </div>
 
 
                 <img src="img/characters.png" alt="People" class="header-img">
@@ -48,20 +49,31 @@
     </div>
     <div class="section">
         <div class="description bg-gradient">
-            <h2 class="middle-heading">Jakiś fancy nagłówek</h2>
+            <h2 class="middle-heading">Informacje</h2>
             <div class="description-container">
 
                 <div class="description-card">
                     <img src="img/mdi_favorite.svg" alt="icon" class="description-icon">
-                    <p class="description-card_text">Jesteśmy grupą studentek psychologii, które stworzyły tę stronę na potrzebę projektu zaliczeniowego na studia. Mając na uwadze wsparcie psychiczne, proponujemy państwu stronę angażującą do codziennych przemyśleń i docenienia najdrobniejszych sytuacji w państwa życiu.</p>
+                    <p class="description-card_text">
+                        <span class="card-heading">Tu znajdziesz wsparcie:
+                     </span>
+                    <ul class="phone-list format-text">
+                        <li> <span class="number-phone">(22)5949100 </span> – telefon pomocy przeciwko depresji</li>
+                        <li><span class="number-phone">116111</span> - telefon zaufania dzieci i młodzieży</li>
+                        <li><span class="number-phone">112</span> -telefon alarmowy</li>
+                    </ul> <br>
+
+                    </p>
                 </div>
                 <div class="description-card">
                     <img src="img/mdi_local_florist.svg" alt="icon" class="description-icon">
-                    <p class="description-card_text">Jesteśmy grupą studentek psychologii, które stworzyły tę stronę na potrzebę projektu zaliczeniowego na studia. Mając na uwadze wsparcie psychiczne, proponujemy państwu stronę angażującą do codziennych przemyśleń i docenienia najdrobniejszych sytuacji w państwa życiu.</p>
+                    <p class="description-card_text"> <span class="card-heading">Kim jesteśmy ? </span><br><br>
+                        Jesteśmy grupą studentek psychologii, które stworzyły tę stronę na potrzebę projektu zaliczeniowego na studia. Mając na uwadze wsparcie psychiczne, proponujemy państwu stronę angażującą do codziennych przemyśleń i docenienia najdrobniejszych sytuacji w państwa życiu.</p>
                 </div>
                 <div class="description-card">
                     <img src="img/mdi_person.svg" alt="icon" class="description-icon">
-                    <p class="description-card_text">Jesteśmy grupą studentek psychologii, które stworzyły tę stronę na potrzebę projektu zaliczeniowego na studia. Mając na uwadze wsparcie psychiczne, proponujemy państwu stronę angażującą do codziennych przemyśleń i docenienia najdrobniejszych sytuacji w państwa życiu.</p>
+                    <p class="description-card_text format-text">Na wszelakie pytania odpowiemy pod adresem mailowym:
+                    appreciate.itt@gmai.com</p>
                 </div>
             </div>
         </div>
@@ -74,18 +86,16 @@
             <form action="app.php" method="post" class="form" target="_blank">
                 <div class="addPost">
                     <label class="form__label" for="todo">Co cię dzisiaj uszczęśliwiło</label>
-
-                    <input required name="name" placeholder="Wpisz swoję imię" type="text" class="addPost addPost-age addPost-name">
+                    <textarea type="text" placeholder="Wpisz swoją historie" class="form__input addPost-input"
+                              id="todo"
+                              name="to-do"
+                              required></textarea>
                     <input required name="age" placeholder="Wpisz swój wiek" type="number" class="addPost addPost-age addPost-old">
                     <select  class="addPost-select" name="gender">
                         <option value="Mężczyzna">Mężczyzna</option>
                         <option value="Kobieta">Kobieta</option>
                         <option value="Wolę Nie podawać">Wolę Nie podawać</option>
                     </select>
-                    <textarea type="text" placeholder="Wpisz swoją historie" class="form__input addPost-input"
-                              id="todo"
-                              name="to-do"
-                              required></textarea>
                     <button  value="Submit" class="button header-btn">Submit</button>
                 </div>
             </form>
