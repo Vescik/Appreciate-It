@@ -72,8 +72,10 @@
                 </div>
                 <div class="description-card">
                     <img src="img/mdi_person.svg" alt="icon" class="description-icon">
-                    <p class="description-card_text format-text">Na wszelakie pytania odpowiemy pod adresem mailowym:
-                    appreciate.itt@gmai.com</p>
+                    <p class="description-card_text format-text">
+                        <span class="card-heading">Chcesz o coś zapytać? <br><br> </span>
+                        Na wszelakie pytania odpowiemy pod adresem mailowym:
+                    <span class="bold-span">appreciate.itt@gmail.com</span></p>
                 </div>
             </div>
         </div>
@@ -82,21 +84,22 @@
     </div>
     <div class="section ">
         <div class="addPost bg-gradient">
-            <h2 class="addPost-heading middle-heading">Podziel się swoją historią </h2>
+            <h2 class="addPost-heading middle-heading">Dodaj posta!</h2>
             <form action="app.php" method="post" class="form" target="_blank">
                 <div class="addPost">
-                    <label class="form__label" for="todo">Co cię dzisiaj uszczęśliwiło</label>
+                    <h2 class="form__label" for="todo">Co dziś doceniłeś, co wywołało uśmiech, za co jesteś wdzięczny?
+                        <br> Opowiedz nam o tym!</h2>
                     <textarea type="text" placeholder="Wpisz swoją historie" class="form__input addPost-input"
                               id="todo"
                               name="to-do"
                               required></textarea>
-                    <input required name="age" placeholder="Wpisz swój wiek" type="number" class="addPost addPost-age addPost-old">
+                    <input  name="age" placeholder="Wpisz swój wiek" type="number" class="addPost addPost-age addPost-old">
                     <select  class="addPost-select" name="gender">
                         <option value="Mężczyzna">Mężczyzna</option>
                         <option value="Kobieta">Kobieta</option>
                         <option value="Wolę Nie podawać">Wolę Nie podawać</option>
                     </select>
-                    <button  value="Submit" class="button header-btn">Submit</button>
+                    <button  value="Submit" class="button header-btn">Wyślij</button>
                 </div>
             </form>
 
@@ -126,7 +129,7 @@
                 <li class="post-test">
                     <div class="post-name">Marek</div>
                     Lorem Ipsum jest tekstem stosowanym jako przykładowy wypełniacz w przemyśle poligraficznym. Został po raz pierwszy użyty w XV w. przez nieznanego drukarza do wypełnienia tekstem próbnej książki.</li>
-
+                
             </ul>
         </div>
     </div>
