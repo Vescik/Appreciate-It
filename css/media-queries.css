@@ -171,6 +171,7 @@
         font-size: 1.2rem;
     }
     .addPost-input{
+        width: 250px;
         height: 150px;
     }
     .post-test{
