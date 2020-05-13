@@ -164,6 +164,18 @@
         left: 50%;
         transform: translate(-50%,-50%);
     }
+    .middle-heading{
+         font-size: 3.5rem;
+    }
+    .form__label{
+        font-size: 1.2rem;
+    }
+    .addPost-input{
+        height: 150px;
+    }
+    .post-test{
+        min-width: 300px;
+    }
 }
 
 
