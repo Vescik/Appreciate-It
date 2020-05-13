@@ -10,8 +10,8 @@
     .header-img{height:500px;
         width: auto}
     .header-btn{
-        font-size: 20px;
-        padding: 7px 30px;
+        font-size: 18px;
+        padding: 6px 40px;
     }
     .description-card{
         margin:  0 70px 70px 70px;
@@ -122,9 +122,16 @@
 
 /* Small phones to small tablets: from 481px to 767px */
 @media only screen and (max-width: 767px) {
-   #fullpage{
-       display: none;
-   }
+  .header-img{
+      display: none;
+  }
+    .header-quote{
+        line-height: 80px;
+    }
+    .description{
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
     .mobile{
         position: absolute;
         display: block;
