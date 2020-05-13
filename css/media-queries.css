@@ -122,11 +122,37 @@
 
 /* Small phones to small tablets: from 481px to 767px */
 @media only screen and (max-width: 767px) {
+
+    .header{
+        padding: 15px;
+    }
+    .header-container{
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-around;
+    }
   .header-img{
-      display: none;
+
   }
+    .header-heading-main{
+        font-size: 3.8rem;}
+    .header-heading-secondary{font-size: 1.8rem}
     .header-quote{
-        line-height: 80px;
+        font-size: 3rem;
+        line-height: 48px;
+        display: block;
+    }
+    .header-img{
+        margin-top: 5px;
+        height:250px;
+        width: 250px}
+    .header-btn{
+        font-size: 18px;
+        padding: 6px 40px;
+    }
+    .description-card{
+        margin:  0 70px 70px 70px;
+        min-width: 300px;
     }
     .description{
         flex-direction: column;
