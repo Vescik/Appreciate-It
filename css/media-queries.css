@@ -131,14 +131,11 @@
         flex-direction: column;
         justify-content: space-around;
     }
-  .header-img{
-
-  }
     .header-heading-main{
         font-size: 3.8rem;}
     .header-heading-secondary{font-size: 1.8rem}
     .header-quote{
-        font-size: 3rem;
+        font-size: 2.6rem;
         line-height: 48px;
         display: block;
     }
@@ -168,6 +165,7 @@
         transform: translate(-50%,-50%);
     }
 }
+
 
 
 
