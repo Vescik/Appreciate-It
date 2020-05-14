@@ -2594,6 +2594,7 @@
 
 .bg-gradient {
   height: 100vh;
+  z-index: -1 !important;
   background: linear-gradient(90deg, #E9DEFA 0%, #FBFCDB 100%); }
 
 body {
@@ -2620,6 +2621,7 @@ body {
   color: #1F28CF; }
 
 .card-heading {
+  text-align: center !important;
   padding: 20px;
   font-weight: 900 !important; }
 
@@ -2648,8 +2650,11 @@ body {
     border: none; }
 
 .format-text {
-  text-align: left;
+  text-align: center;
   font-weight: 500 !important; }
+
+.bold-span {
+  font-weight: 900; }
 
 .phone-list {
   list-style: none; }
@@ -2691,8 +2696,7 @@ body {
 
 .header-btn {
   font-weight: 500;
-  margin-top: 20px;
-  padding: 25px 60px;
+  padding: 35px 60px;
   border-radius: 50px;
   background: linear-gradient(90deg, #6A11CB 0%, #2575FC 100%);
   font-size: 2.5rem;
@@ -2743,7 +2747,7 @@ body {
   .addPost-input {
     padding: 15px;
     font-size: 2.3rem;
-    width: 160%;
+    width: 80%;
     height: 200px;
     border: none;
     border-radius: 14px;
@@ -2753,10 +2757,11 @@ body {
       border: none;
       outline: none; }
   .addPost-age {
+    font-family: 'Roboto', sans-serif !important;
     margin: 15px;
     padding: 15px;
     border: none;
-    width: 90%;
+    width: 20%;
     border-radius: 14px;
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25); }
     .addPost-age:focus {
@@ -2778,7 +2783,8 @@ body {
   margin: 10px;
   min-width: 400px;
   font-weight: 500;
-  cursor: pointer; }
+  cursor: pointer;
+  z-index: 9999; }
   .post-test ul {
     margin-top: 20px; }
   .post-test:hover .post-name::after {

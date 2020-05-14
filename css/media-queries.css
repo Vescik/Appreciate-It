@@ -140,6 +140,7 @@
         display: block;
     }
     .header-img{
+        display: none;
         margin-top: 5px;
         height:250px;
         width: 250px}
@@ -155,7 +156,7 @@
         flex-direction: column;
         flex-wrap: wrap;
     }
-    
+
     .middle-heading{
          font-size: 3.5rem;
     }
@@ -167,6 +168,7 @@
         height: 150px;
     }
     .post-test{
+        margin: 25px;
         min-width: 300px;
     }
 }
