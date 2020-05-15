@@ -14,7 +14,7 @@
         padding: 6px 40px;
     }
     .description-card{
-        margin:  0 70px 70px 70px;
+        margin: 0 auto;
         min-width: 300px;
     }
     .description-card_text{
@@ -52,8 +52,8 @@
         padding: 7px 30px;
     }
     .description-card{
-    min-width: 400px;
-        margin: 0 50px 50px 50px;
+        margin: 0 auto;
+        min-width: 400px;
     }
     .description-card_text{
         padding: 5px 20px 30px 20px;
@@ -103,7 +103,7 @@
     .header-img{height:500px;
         width: auto}
     .description-card{
-        margin: 30px;
+        margin: 0 auto;
         min-width: 250px;
 
     }
@@ -149,7 +149,7 @@
         padding: 6px 40px;
     }
     .description-card{
-        margin:  0 70px 70px 70px;
+
         min-width: 300px;
     }
     .description{
@@ -175,7 +175,7 @@
         width: 200px;
     }
     .description-card{
-        margin: 30px;
+        margin: 0 auto;
     }
     .fp-controlArrow{
         display: none;
@@ -188,7 +188,7 @@
 /* Small phones: from 0 to 480px */
 @media only screen and (max-width: 321px) {
     .description-card{
-        margin:5px;
+        margin: 0 auto;
     }
     .fp-controlArrow{
         display: none;

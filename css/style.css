@@ -2716,20 +2716,19 @@ body {
 
 .description-container {
   display: flex;
-  justify-content: space-around; }
+  justify-content: center;
+  align-content: center; }
 
 .description-card {
-  margin-top: -20px;
-  position: relative;
+  margin: 0 auto;
   border-radius: 25px;
   background-color: #ffffff;
   text-align: center;
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
   transition: transform .4s;
   cursor: pointer;
-  min-width: 350px; }
-  .description-card:hover {
-    transform: translateY(-20px); }
+  min-width: 350px;
+  max-width: 350px; }
   .description-card_text {
     font-size: 35px;
     font-weight: 500; }
